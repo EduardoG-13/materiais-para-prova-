@@ -10,62 +10,62 @@
 
 # LIDERANÇA
 
-**L1.** Em Kahneman, um viés cognitivo é:
+**L1.** Na Sprint Review do projeto de previsão de vendas de veículos, o grupo percebe que sempre "arredonda para cima" as estimativas que confirmam o que o parceiro já espera. Segundo Kahneman (aula de Viés e IA), um viés cognitivo é:
 (a) uma falta de inteligência
 (b) um desvio **sistemático** de julgamento, que leva a conclusões distorcidas de forma previsível
 (c) um tipo de raciocínio lento e deliberado (Sistema 2)
 (d) um erro aleatório de julgamento, imprevisível
 (e) um defeito exclusivo de algoritmos
 
-**L2.** No teste do gorila (Simons & Chabris, 1999), cerca de 50% das pessoas não veem o gorila porque, ao focar em contar passes, deixam de perceber o inesperado. Esse fenômeno é chamado de:
+**L2.** Ao analisar a base de emplacamentos do projeto, o time conta só as quedas de vendas por segmento e nem nota que a coluna `motorização` tem 30% de valores ausentes, mesmo estando à vista. Como no teste do gorila (Simons & Chabris, 1999), em que ~50% das pessoas não veem o gorila ao focar em contar passes, esse fenômeno é chamado de:
 (a) cegueira por desatenção  (b) efeito halo  (c) coded gaze  (d) viés de ancoragem  (e) viés de confirmação
 
-**L3.** Uma seguradora usa o **CEP** do cliente no lugar da renda para calcular risco, e o CEP acaba carregando informação sobre raça e classe. Segundo Ferrara (2024), isso é um exemplo de viés:
+**L3.** Uma fintech treina um modelo de score de crédito e usa o **CEP** do cliente no lugar da renda; o CEP acaba carregando informação sobre raça e classe. Segundo Ferrara (2024), isso é um exemplo de viés:
 (a) de **dados**, por medição via proxy  (b) de disponibilidade  (c) de interação  (d) algorítmico por limiar de corte  (e) de confirmação do usuário
 
-**L4.** No estudo *Gender Shades* (Buolamwini & Gebru, 2018), o erro chegou a 34,7% para mulheres de pele escura contra 0,8% para homens de pele clara. A causa central apontada foi:
+**L4.** Um time de visão computacional audita sistemas comerciais de reconhecimento facial. No estudo *Gender Shades* (Buolamwini & Gebru, 2018), o erro chegou a 34,7% para mulheres de pele escura contra 0,8% para homens de pele clara. A causa central apontada foi:
 (a) falta de poder computacional
 (b) programadores mal-intencionados
 (c) excesso de dados de mulheres de pele escura
 (d) hardware de câmera inadequado
 (e) bases de treino dominadas por rostos claros e masculinos
 
-**L5.** A IA de recrutamento da Amazon, treinada com 10 anos de currículos aprovados, passou a penalizar currículos com a palavra "women's". A lição comum ao caso COMPAS é:
+**L5.** A IA de triagem de currículos de uma big tech, treinada com 10 anos de contratações aprovadas, passou a penalizar currículos com a palavra "women's" (caso Amazon). Ao lado do caso COMPAS (risco de reincidência), a lição comum para quem constrói modelos é:
 (a) o viés só existe na interação com o usuário
 (b) o erro se resolve trocando o modelo por um mais complexo
 (c) ninguém programou o preconceito: ele veio dos **dados históricos** de decisões humanas passadas
 (d) os desenvolvedores programaram o preconceito no código
 (e) algoritmos são neutros por calcularem números
 
-**L6.** Sobre personalidade e comportamento nos slides de feedback:
+**L6.** Antes de dar feedback a um colega do grupo depois da sprint, você quer mirar no que de fato pode mudar. Sobre personalidade e comportamento nos slides de feedback:
 (a) personalidade = o que **fazemos**; comportamento = o que somos
 (b) rotular a pessoa abre caminho para mudança
 (c) feedback deve mirar a personalidade, pois ela explica tudo
 (d) personalidade = traços relativamente estáveis (o que somos); comportamento = ações observáveis num contexto (o que fazemos), e é o alvo do feedback
 (e) os dois são a mesma coisa
 
-**L7.** Encontre S, C e I: *"Na sprint review de terça, o colega não apresentou a parte dele do projeto; com isso, o grupo ficou sem os resultados e a nota do artefato caiu."*
+**L7.** Encontre S, C e I no feedback abaixo, dado na retrospectiva do projeto: *"Na sprint review de terça, o colega não apresentou a parte dele do projeto; com isso, o grupo ficou sem os resultados e a nota do artefato caiu."*
 (a) S = o colega; C = a nota caiu; I = sprint review
 (b) Não há S, C e I nesse texto
 (c) S = não apresentou; C = grupo sem resultados; I = terça
 (d) S = a nota caiu; C = sprint review; I = não apresentou
 (e) S = sprint review de terça; C = não apresentou a sua parte; I = o grupo ficou sem resultados e a nota caiu
 
-**L8.** Qual é o melhor feedback segundo SCI + Intenção e o checklist da aula (situação, comportamento observável, impacto, sem rótulo, fecha com pergunta/pedido)?
+**L8.** Um colega chega atrasado à daily do projeto e o grupo precisa refazer o status. Qual é o melhor feedback segundo SCI + Intenção e o checklist da aula (situação, comportamento observável, impacto, sem rótulo, fecha com pergunta/pedido)?
 (a) "Na daily de quinta, você chegou 20 min atrasado; o grupo começou sem você e refizemos o status. Podemos combinar um aviso prévio quando houver imprevisto?"
 (b) "Você é desorganizado e não se importa com o grupo."
 (c) "Seu código está uma bagunça."
 (d) "Você não se posiciona porque tem medo de conflito."
 (e) "Você deve continuar se aprofundando nos assuntos e trazer a prática para o dia a dia."
 
-**L9.** Os quatro componentes da Comunicação Não Violenta, na ordem, são:
+**L9.** Ao preparar um feedback sobre a documentação do repositório do projeto, o grupo decide usar a Comunicação Não Violenta. Os quatro componentes da CNV, na ordem, são:
 (a) julgamento → sentimento → necessidade → exigência
 (b) sentimento → observação → pedido → necessidade
 (c) situação → comportamento → impacto → intenção
 (d) observação → sentimento → necessidade → pedido
 (e) pedido → observação → necessidade → sentimento
 
-**L10.** Segundo a aula de Viés e IA, a afirmação mais correta sobre o papel do líder é:
+**L10.** A diretoria de uma empresa adota um modelo preditivo de risco e passa a aceitar as saídas sem revisar, porque "o algoritmo calcula, logo é neutro". Segundo a aula de Viés e IA, a afirmação mais correta sobre o papel do líder é:
 (a) o líder só precisa corrigir vieses de interação, não de dados
 (b) a IA elimina o Sistema 1, então o líder deve apenas seguir a saída do modelo
 (c) viés e injustiça (bias e fairness) são sinônimos
@@ -76,62 +76,62 @@
 
 # NEGÓCIOS
 
-**N1.** Na SWOT do projeto da MAHLE, a oscilação do **câmbio** (que encarece componentes importados) é:
+**N1.** No projeto de previsão de vendas de veículos da MAHLE (fornecedora Tier 1 de autopeças), o grupo monta a SWOT. A oscilação do **câmbio**, que encarece componentes importados, é:
 (a) não entra na SWOT  (b) força  (c) **ameaça** (fator externo que a empresa não controla)  (d) oportunidade  (e) fraqueza
 
-**N2.** Na Seção 1 do artefato (parceiro e problema), o texto deve:
+**N2.** Na Seção 1 do artefato do projeto (parceiro e problema), o grupo escreve sobre a MAHLE. O texto deve:
 (a) ser genérico para servir a qualquer fornecedora
 (b) copiar o texto institucional do site do parceiro
 (c) descrever o **problema** (com efeito operacional e fonte dos números), e **não** antecipar a solução
 (d) usar adjetivos como "grande" e "líder" no lugar de dados
 (e) apresentar a solução de IA logo no primeiro parágrafo
 
-**N3.** No mercado de autopeças, os **concorrentes** da MAHLE, segundo o slide, são aqueles que:
+**N3.** Ao mapear o mercado de autopeças para as 5 Forças de Porter do projeto, o grupo lista concorrentes da MAHLE. Segundo o slide, os **concorrentes** são aqueles que:
 (a) fornecem matéria-prima para a MAHLE
 (b) a montadora escolheria se a MAHLE não existisse (ex.: BorgWarner, Denso, Valeo, Bosch, fabricantes chineses)
 (c) são qualquer empresa do setor automotivo
 (d) distribuem produtos sem vender à montadora
 (e) são apenas as montadoras clientes
 
-**N4.** Para a Seção 4.1.3, o **critério de sucesso** do projeto deve ser:
+**N4.** Na Seção 4.1.3 do artefato do projeto de previsão de demanda, o grupo precisa definir o **critério de sucesso** da solução. Ele deve ser:
 (a) somente a acurácia do modelo
 (b) uma opinião sobre a qualidade do modelo
 (c) a satisfação do grupo
 (d) somente a queda de custos, sem métrica de modelo
 (e) o par **métrica do modelo** (erro de previsão vs realizado) + **métrica de negócio** (menos ajustes emergenciais de produção, estoque no planejado)
 
-**N5.** Segundo os princípios da LGPD aplicados ao projeto: "**coluna que não entra no modelo não deveria estar na base**" corresponde ao princípio da:
+**N5.** No repositório do projeto, alguém propõe manter na base colunas que não entram no modelo "só por garantia". Segundo os princípios da LGPD aplicados ao projeto, "**coluna que não entra no modelo não deveria estar na base**" corresponde ao princípio da:
 (a) responsabilização  (b) transparência  (c) segurança  (d) **necessidade**  (e) finalidade
 
-**N6.** A MAHLE decide majoritariamente por experiência. O time quer testar hipóteses novas com dados, mas com hipóteses claras, testes bem desenhados e critério objetivo para parar ou pivotar. Isso equilibra, em Pisano (HBR, 2019), o paradoxo:
+**N6.** A MAHLE decide majoritariamente por experiência, mas o time do modelo preditivo quer testar hipóteses novas com dados, com hipóteses claras, testes bem desenhados e critério objetivo para parar ou pivotar. Isso equilibra, em Pisano (HBR, 2019), o paradoxo:
 (a) colaboração × responsabilidade individual
 (b) tolerância à falha × intolerância à incompetência
 (c) não-hierarquia × liderança forte
 (d) segurança psicológica × candura brutal
 (e) **experimentação × disciplina rigorosa**
 
-**N7.** Em Schein (cap. 1), sobre os níveis de cultura:
+**N7.** Ao observar a MAHLE, o grupo nota o jargão, o forecast comunicado em planilhas mensais e as reuniões de planejamento. Em Schein (cap. 1), sobre os níveis de cultura:
 (a) cultura é apenas uma lista de traços, sem processo dinâmico
 (b) artefatos observáveis são a base estável e inconsciente da cultura
 (c) premissas básicas são fáceis de observar e fáceis de mudar
 (d) cultura muda facilmente com a chegada de novos membros, inclusive seu núcleo
 (e) artefatos (jargão, rituais, valores expostos) são **visíveis mas difíceis de interpretar sozinhos**; as **premissas básicas** são o DNA cultural: estáveis, inconscientes e difíceis de mudar
 
-**N8.** Segundo Schein (cap. 16), quando o time de previsão manual da MAHLE teme perder competência e status com o novo modelo, o que se **deve** fazer, e em qual estágio da mudança?
+**N8.** O time da MAHLE que faz a previsão manual teme perder competência e status com a chegada do modelo preditivo. Segundo Schein (cap. 16), o que o time de projeto **deve** fazer, e em qual estágio da mudança?
 (a) culpar outro departamento (bode expiatório)
 (b) **reduzir a ansiedade pela aprendizagem** (treinamento, envolvimento do aprendiz, tempo/prática/feedback) e criar segurança psicológica; estágio de **descongelamento**
 (c) ignorar a resistência e impor o modelo
 (d) esperar o recongelamento antes de qualquer ação
 (e) aumentar a ansiedade pela sobrevivência; estágio de recongelamento
 
-**N9.** Na governança corporativa para startups, os **4 princípios fundamentais** são:
+**N9.** Uma startup de IA (spin-off de um laboratório) quer estruturar a governança antes de captar investimento. Na governança corporativa para startups, os **4 princípios fundamentais** são:
 (a) lucro, escala, velocidade e inovação
 (b) transparência, equidade, prestação de contas (*accountability*) e responsabilidade corporativa
 (c) estratégia, pessoas, tecnologia e processos
 (d) visão, missão, valores e metas
 (e) ideação, validação, tração e escala
 
-**N10.** Uma startup já validou o produto no mercado (*product-market fit*) e cresce rápido, mas as decisões ainda são informais. Na fase **Tração**, o slide recomenda como práticas essenciais:
+**N10.** Uma startup de análise preditiva já validou o produto (*product-market fit*) e cresce rápido, mas decide tudo de modo informal. Na fase **Tração**, o slide recomenda como práticas essenciais:
 (a) **conselho de administração formal, comitês temáticos (auditoria, compliance), planejamento estratégico estruturado, controles internos** e políticas de compliance/ética
 (b) apenas o Founders Agreement e o código de conduta inicial
 (c) constituição formal da empresa e primeiros clientes
@@ -142,66 +142,66 @@
 
 # DESIGN (UX e visualização de dados)
 
-**D1.** No CRISP-DM, a fase em que "as pessoas encontram o modelo" e a UX é decisiva é:
+**D1.** No projeto de previsão de demanda da MAHLE, o grupo mapeia onde a experiência do usuário decide o sucesso do modelo. No CRISP-DM, a fase em que "as pessoas encontram o modelo" é:
 (a) Data Preparation  (b) Data Understanding  (c) Modeling  (d) **Deployment**  (e) Business Understanding
 
-**D2.** Segundo o Google PAIR (autoestudo), a IA **não** é a melhor opção quando:
+**D2.** Um squad avalia se deve usar IA em várias funcionalidades do produto. Segundo o Google PAIR (autoestudo), a IA **não** é a melhor opção quando:
 (a) é preciso estimar valores futuros
 (b) há **erros críticos** (alto custo de falha) ou necessidade de **transparência/explicabilidade total**
 (c) o objetivo é personalizar recomendações
 (d) há padrões a reconhecer em imagens
 (e) é preciso detectar anomalias
 
-**D3.** No caso MAHLE, o **planejador de demanda** que usa a previsão diretamente, o **diretor de operações** que decide capacidade com base nela e o **planejador de produção** que apenas recebe o forecast e programa a linha são, respectivamente:
+**D3.** No caso MAHLE, o **planejador de demanda** usa a previsão diretamente, o **diretor de operações** decide capacidade com base nela e o **planejador de produção** apenas recebe o forecast e programa a linha. Eles são, respectivamente:
 (a) nenhum deles é stakeholder
 (b) usuário afetado, usuário afetado, usuário primário
 (c) todos usuários primários
 (d) usuário primário, usuário secundário, usuário **afetado**
 (e) usuário secundário, usuário primário, usuário afetado
 
-**D4.** Sobre o mapa de jornada (NN/g, aula 2):
+**D4.** O grupo monta o mapa de jornada do planejador de demanda da MAHLE (revisão mensal da previsão). Sobre o mapa de jornada (NN/g, aula 2):
 (a) um mapa pode ter várias personas ao mesmo tempo
 (b) a jornada não inclui emoções
 (c) **1 mapa = 1 ator + 1 ponto de vista** (com cenário/expectativas, fases, ações/pensamentos/emoções e oportunidades); duas personas exigem dois mapas
 (d) as ações vêm da mesa de trabalho da equipe, sem pesquisa
 (e) o mapa termina nas ações, sem oportunidades
 
-**D5.** Três versões de um gráfico de barras dos mesmos dados: (1) cada barra com sua própria escala, parecendo iguais; (2) barra do valor 4 mais alta que a do valor 5; (3) uma cor por barra, três fontes e grade demais. Classificando em **feio / ruim / errado**:
+**D5.** Numa review do projeto, três versões de um gráfico de barras de vendas por segmento aparecem: (1) cada barra com sua própria escala, parecendo iguais; (2) barra do valor 4 mais alta que a do valor 5; (3) uma cor por barra, três fontes e grade demais. Classificando em **feio / ruim / errado**:
 (a) as três são "errado"
 (b) 1 = feio; 2 = ruim; 3 = errado
 (c) 1 = ruim (percepção); 2 = **errado** (matemática); 3 = feio (estética)
 (d) 1 = errado; 2 = feio; 3 = ruim
 (e) 1 = errado; 2 = ruim; 3 = feio
 
-**D6.** Qual gráfico responde melhor a cada pergunta: (i) "como a frequência evoluiu ao longo dos meses?", (ii) "existe relação entre frequência de treino e gasto mensal?", (iii) "como as idades dos alunos se distribuem?"
+**D6.** Um dashboard de uma rede de academias precisa responder: (i) "como a frequência evoluiu ao longo dos meses?", (ii) "existe relação entre frequência de treino e gasto mensal?", (iii) "como as idades dos alunos se distribuem?". Qual gráfico responde melhor a cada uma?
 (a) (i) histograma; (ii) barras; (iii) linha
 (b) (i) **linha**; (ii) **dispersão**; (iii) **histograma**
 (c) (i) pizza; (ii) histograma; (iii) dispersão
 (d) (i) barras; (ii) linha; (iii) pizza
 (e) (i) dispersão; (ii) linha; (iii) barras empilhadas
 
-**D7.** Sobre boas práticas nos gráficos:
+**D7.** Ao preparar os gráficos do relatório de previsão de vendas para a diretoria, sobre boas práticas:
 (a) em **barras** o eixo começa no zero (o comprimento codifica o valor); no **histograma** as barras se tocam (faixas numéricas); no gráfico de **linha** o eixo Y não precisa começar em zero
 (b) barras de histograma devem ter espaço entre si, como no gráfico de barras
 (c) em dispersão devem-se ligar os pontos com linhas
 (d) o eixo do gráfico de barras pode começar em qualquer valor, pois só a diferença importa
 (e) pizza é ideal para comparar muitas categorias
 
-**D8.** Um gráfico de dispersão mostra que quanto mais o time posta nas redes, mais matrículas há. Com base na aula, a leitura correta é:
+**D8.** O gráfico de dispersão de uma academia mostra que, quanto mais o time posta nas redes, mais matrículas há. O gerente quer aumentar os posts para vender mais. Com base na aula, a leitura correta é:
 (a) a relação é causal se o R² for alto
 (b) é preciso ligar os pontos para provar causa
 (c) existe **relação** (direção, concentração, extremos), mas duas variáveis variarem juntas **não significa que uma causa a outra**; pode haver terceira variável (ex.: sazonalidade), como nas *Spurious Correlations*
 (d) o post **causa** as matrículas
 (e) não há relação, pois há pontos dispersos
 
-**D9.** Segundo a aula de Storytelling com Dados: "Acurácia geral: 82%. No segmento crítico: 61%." é um dado. A **mensagem** correspondente e a melhor forma de conduzir a atenção são:
+**D9.** Na apresentação do modelo de previsão à diretoria, o slide mostra: "Acurácia geral: 82%. No segmento crítico: 61%." Segundo a aula de Storytelling com Dados, isso é um dado. A **mensagem** correspondente e a melhor forma de conduzir a atenção são:
 (a) a mensagem é o próprio dado; basta mostrar o gráfico completo
 (b) a mensagem só deve aparecer no final, sem destaque
 (c) a mensagem é "acurácia é 82%"; o título deve descrever o eixo
 (d) não existe diferença entre dado e mensagem
 (e) "O modelo acerta no geral, mas falha no segmento mais crítico." O título deve comunicar a **mensagem**, a cor aponta, o texto explica e a conclusão fica escrita (não a cargo do leitor)
 
-**D10.** Ao montar o storyboard do projeto (aula 4), a melhor estrutura e o cuidado central são:
+**D10.** O grupo monta o storyboard de apresentação final do projeto com as Reviews das Sprints 1 a 4. A melhor estrutura e o cuidado central (aula 4) são:
 (a) contexto → questão/tensão → evidências → significado → encaminhamento; a **sequência da história** parte do que o público precisa saber para compreender o que vem depois (não da ordem do projeto); teste trocar, retirar e depender de quadros; nenhum quadro sem função
 (b) começar sempre pela coleta de dados
 (c) mostrar todos os 70 indicadores de uma vez, para completude

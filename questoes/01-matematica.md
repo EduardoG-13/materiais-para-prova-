@@ -1,6 +1,6 @@
-# Matemática — 30 questões (fácil → difícil)
+# Matemática — 30 questões contextualizadas (fácil → difícil)
 
-**Base:** slides do Geraldo (Sem 02–08), resumos em PDF, provas antigas e lista de revisão da Lívia (monitoria). Números novos, sem repetir os da monitoria.
+**Base:** slides do Geraldo (Sem 02–08), resumos em PDF, provas antigas e lista de revisão da Lívia (monitoria). Como nas provas do Inteli, todas as questões têm contexto de tecnologia (modelos de IA, MLOps, nuvem) e do projeto de previsão de vendas de veículos (MAHLE). Números novos, sem repetir os da monitoria.
 
 **Formato da prova:** questões de **soma** (afirmações 01, 02, 04; responda a soma das corretas, de 0 a 7) e **múltipla escolha**. Sem calculadora. Tabela normal: `Materiais Docentes.../Matemática/Tabela Normal Padrao.pdf`.
 
@@ -12,118 +12,118 @@ Gabarito com resolução no final. Faça sem olhar.
 
 ## NÍVEL 1 — Base
 
-**Q1 (soma).** Um cientista de dados descreve as saídas de um modelo. Julgue:
-- (01) A densidade f(x) de uma variável contínua nunca pode ser maior que 1.
+**Q1 (soma).** A equipe do projeto MAHLE descreve as saídas dos seus modelos preditivos de vendas mensais de veículos. Julgue as afirmações sobre variáveis aleatórias:
+- (01) A densidade f(x) de uma variável contínua, como o tempo de resposta do modelo, nunca pode ser maior que 1.
 - (02) Em uma variável aleatória contínua, P(X = c) = 0 para qualquer valor c.
 - (04) A área total sob a PDF vale 1 apenas para a distribuição normal.
 
-**Q2.** O custo de um servidor é C(x, y) = 3x² − 2xy + y. Calcule C(2, 3).
+**Q2.** O custo de inferência de um modelo em nuvem, em unidades de processamento, é C(x, y) = 3x² − 2xy + y, em que x é o volume de requisições (em milhares) e y é a memória usada (em GB). Calcule C(2, 3).
 (a) 3  (b) 9  (c) 27  (d) −3  (e) 15
 
-**Q3 (soma).** Sobre domínio e curvas de nível:
+**Q3 (soma).** O módulo de validação de uma IA de logística rejeita entradas inválidas antes de passá-las à predição. Sobre domínio e curvas de nível:
 - (01) O domínio de f(x, y) = x²y − 4y³ é todo o plano ℝ².
 - (02) Para que √(x − y) seja real, é preciso x − y ≥ 0.
 - (04) A curva de nível k de f é o conjunto dos pontos (x, y) tais que f(x, y) = k.
 
-**Q4.** Para f(x, y) = 4x³y² − 7x + 2y, a derivada parcial ∂f/∂x é:
+**Q4.** Um classificador de defeitos em pistões tem função de perda L(x, y) = 4x³y² − 7x + 2y, em que x e y são dois pesos do modelo. Na atualização por gradiente, a derivada parcial ∂L/∂x é:
 (a) 12x²y² − 7  (b) 12x²y² − 5  (c) 12x²y − 7  (d) 8x³y − 7  (e) 12x²y² − 7x
 
-**Q5.** Um lote tem 4 componentes independentes e cada um falha com probabilidade 1/2. Qual a probabilidade de falharem exatamente 2?
+**Q5.** Um lote de inspeção usa 4 classificadores independentes em paralelo, e cada um gera um falso positivo com probabilidade 1/2. Qual a probabilidade de exatamente 2 deles gerarem falso positivo?
 (a) 0,250  (b) 0,375  (c) 0,500  (d) 0,125  (e) 0,750
 
-**Q6.** O tempo de resposta X segue uma Uniforme Contínua em [0, 40] ms. Qual é P(X > 30)?
+**Q6.** O tempo de inferência de um modelo de previsão de demanda segue uma Uniforme Contínua em [0, 40] ms. O painel de MLOps dispara alerta de lentidão acima de 30 ms. Qual é P(X > 30)?
 (a) 10%  (b) 25%  (c) 30%  (d) 75%  (e) 33%
 
-**Q7.** A latência de um serviço tem média 200 ms e desvio-padrão 25 ms. Qual o escore Z de uma requisição de 250 ms?
+**Q7.** A latência de um serviço de inferência tem média 200 ms e desvio-padrão 25 ms. Na padronização de features (Escore Z), qual o escore de uma requisição de 250 ms?
 (a) 0,5  (b) 2  (c) 50  (d) −2  (e) 1,25
 
-**Q8 (soma).** Sobre TLC e erro-padrão:
+**Q8 (soma).** Um pipeline de monitoramento (MLOps) avalia a latência do modelo em produção por médias amostrais. Sobre o TLC e o erro-padrão:
 - (01) O erro-padrão da média é σ/√n.
 - (02) Quadruplicar o tamanho da amostra reduz o erro-padrão à metade.
 - (04) O TLC afirma que a população se torna normal quando a amostra é grande.
 
-**Q9.** Calcule ∬ 4x dA sobre R = [0, 3] × [0, 2].
+**Q9.** A carga de transações de um servidor de recomendação é modelada por R(x, y) = 4x sobre a região retangular x ∈ [0, 3] e y ∈ [0, 2]. Calcule o volume total ∬ R dA.
 (a) 12  (b) 24  (c) 36  (d) 48  (e) 72
 
-**Q10.** Seja T(x, y) = (3x − y, x + 2y). Qual é o determinante da matriz padrão de T?
+**Q10.** Na engenharia de atributos do projeto MAHLE, dois indicadores econômicos são projetados por T(x, y) = (3x − y, x + 2y) (transformação de pré-processamento). Qual é o determinante da matriz padrão de T?
 (a) 5  (b) 6  (c) 7  (d) −7  (e) 1
 
 ---
 
 ## NÍVEL 2 — Intermediário
 
-**Q11 (soma).** Sobre transformações lineares:
+**Q11 (soma).** Uma equipe implementa etapas de pré-processamento de um pipeline de IA como transformações de vetores. Sobre transformações lineares:
 - (01) Se T é linear, então T(0, 0) = (0, 0).
 - (02) T(x, y) = (x + 1, y) é linear.
 - (04) Na matriz padrão, as imagens T(e₁) e T(e₂) formam as **linhas** da matriz.
 
-**Q12.** A vida útil de um componente é Normal com média 100 h e desvio-padrão 20 h. Usando a tabela, qual é P(X < 130)?
+**Q12.** Um modelo de manutenção preditiva estima que a vida útil restante de uma frota de motores segue uma Normal com média 100 h e desvio-padrão 20 h. Usando a tabela, qual é a probabilidade de a vida útil ser menor que 130 h?
 (a) 84,13%  (b) 93,32%  (c) 97,72%  (d) 6,68%  (e) 50,00%
 
-**Q13.** Em 5 execuções independentes, cada uma falha com probabilidade 0,2. Qual a probabilidade de **pelo menos uma** falha?
+**Q13.** Um job de treinamento de IA é executado 5 vezes de forma independente, e cada execução falha com probabilidade 0,2. Qual a probabilidade de **pelo menos uma** execução falhar?
 (a) 0,2000  (b) 0,3277  (c) 0,4096  (d) 0,6723  (e) 1,0000
 
-**Q14.** Para estimar uma média com margem de erro máxima E = 5, sendo σ = 25 e confiança de 95% (Z = 1,96), o tamanho mínimo da amostra é:
+**Q14.** Um analista de nuvem quer estimar o consumo médio de memória com margem de erro máxima E = 5 GB. O desvio-padrão populacional é σ = 25 GB e a confiança é de 95% (Z = 1,96). O tamanho mínimo da amostra é:
 (a) 25  (b) 49  (c) 96  (d) 97  (e) 385
 
-**Q15.** Uma amostra de n = 100 tem média 200 e σ = 30 (conhecido). O IC de 95% (Z = 1,96) para a média é:
+**Q15.** Um teste com n = 100 requisições mediu latência média de 200 ms, com σ = 30 ms (conhecido). O intervalo de confiança de 95% (Z = 1,96) para a latência média é:
 (a) [141,20; 258,80]  (b) [197,06; 202,94]  (c) [194,12; 205,88]  (d) [190,00; 210,00]  (e) [196,08; 203,92]
 
-**Q16 (soma).** Sobre testes de hipóteses:
+**Q16 (soma).** A equipe de engenharia faz um Teste A/B para saber se o novo modelo de previsão de demanda reduz o tempo de processamento. Sobre o teste de hipóteses:
 - (01) O erro Tipo I consiste em não rejeitar H₀ quando ela é falsa.
 - (02) A hipótese alternativa Hₐ pode conter o sinal de igualdade.
 - (04) Se o p-valor é menor que α, rejeita-se H₀.
 
-**Q17.** Uma amostra de n = 25 execuções tem média 96 e desvio-padrão amostral s = 15 (σ desconhecido). Para testar μ₀ = 100, a estatística t é:
+**Q17.** Por restrição de orçamento de nuvem, uma simulação rodou só n = 25 baterias de avaliação. O desvio-padrão populacional é desconhecido; a amostra teve média de 96 requisições e desvio-padrão amostral s = 15. A meta é μ₀ = 100. Usando a distribuição t, a estatística de teste é:
 (a) −4,00  (b) −0,27  (c) −1,33  (d) 1,33  (e) −0,80
 
-**Q18.** O domínio real de g(x, y) = ln(4 − x² − y²) é:
+**Q18.** Um modelo de risco de queda de servidor usa g(x, y) = ln(4 − x² − y²), em que x é o tráfego normalizado e y é a latência normalizada. As entradas fora do domínio real são rejeitadas. O domínio válido é:
 (a) x² + y² ≤ 4  (b) x² + y² < 4  (c) x² + y² > 4  (d) x² + y² ≥ 4  (e) todo o plano ℝ²
 
-**Q19.** A curva de nível k = 16 de f(x, y) = x² + 4y² é:
+**Q19.** Um algoritmo de precificação de nuvem usa C(x, y) = x² + 4y², em que x é processamento e y é armazenamento. A diretoria quer as combinações de custo fixo k = 16. A curva de nível é:
 (a) circunferência de raio 4  (b) elipse de semieixos 4 e 2  (c) hipérbole  (d) parábola  (e) par de retas paralelas
 
-**Q20.** Os autovalores de A = [[4, 1], [2, 3]] são:
+**Q20.** No projeto MAHLE, dois indicadores correlacionados (juros e inflação) passam por uma transformação cuja matriz é A = [[4, 1], [2, 3]]. Os autovalores de A são:
 (a) 1 e 6  (b) 2 e 5  (c) 3 e 4  (d) −2 e −5  (e) 7 e 10
 
 ---
 
 ## NÍVEL 3 — Nível de prova
 
-**Q21 (soma).** A região D é limitada por y = 0, x = 3 e y = 2x.
+**Q21 (soma).** Um modelo preditivo processa o risco de tráfego numa fronteira triangular D, delimitada pelo eixo y = 0, pela reta x = 3 e pela reta y = 2x, com densidade de carga f(x, y).
 - (01) Na ordem dy dx, y varia de 0 a 3 (limites fixos).
 - (02) Na ordem dx dy, 0 ≤ y ≤ 6 e y/2 ≤ x ≤ 3.
 - (04) A área de D vale 9.
 
-**Q22.** Calcule ∬ (x + y) dA sobre D = {0 ≤ x ≤ 2, 0 ≤ y ≤ x}.
+**Q22.** A carga de processamento de um motor de anomalias é f(x, y) = x + y, integrada sobre a região triangular D = {0 ≤ x ≤ 2, 0 ≤ y ≤ x}. O escore agregado ∬ f dA é:
 (a) 2  (b) 4  (c) 6  (d) 8  (e) 12
 
-**Q23 (soma).** Seja f(x, y) = x²y³.
+**Q23 (soma).** Uma IA de precificação dinâmica tem custo computacional f(x, y) = x²y³, e os desenvolvedores analisam sua sensibilidade às entradas por derivadas parciais.
 - (01) f_x = 2xy³.
 - (02) f_y = 2x²y².
 - (04) f_xy = f_yx = 6xy².
 
-**Q24.** Seja z = x·y³, com x(t) = t² e y(t) = t + 1. Pela regra da cadeia, dz/dt em t = 1 vale:
+**Q24.** A produção prevista de um modelo é z = x·y³, em que x é o tráfego e y é a latência, ambos variando no tempo: x(t) = t² e y(t) = t + 1. Pela regra da cadeia, dz/dt em t = 1 vale:
 (a) 16  (b) 20  (c) 24  (d) 28  (e) 32
 
-**Q25.** O lucro de uma operação é L(x, y) = 40x + 24y − 2x² − 3y². O valor máximo de L é:
+**Q25.** No projeto MAHLE, o lucro previsto (em R$ mil) de uma linha de produção, em função das horas de dois turnos x e y, é L(x, y) = 40x + 24y − 2x² − 3y². O valor máximo de L é:
 (a) 152  (b) 200  (c) 248  (d) 296  (e) 344
 
-**Q26.** Calcule o volume sob z = 10 − 2x − y sobre R = [0, 1] × [0, 2].
+**Q26.** O volume de transações de alto risco interceptadas por um cluster de IA é determinado integrando a superfície z = 10 − 2x − y sobre a região R = [0, 1] × [0, 2]. O volume total é:
 (a) 8  (b) 12  (c) 16  (d) 18  (e) 20
 
-**Q27.** Uma densidade de falhas é f(x, y) = 2y·e^(2x) sobre R = [0, 1] × [0, 3]. A integral dupla vale:
+**Q27.** Uma função de densidade modela falhas simultâneas em contêineres: f(x, y) = 2y·e^(2x) sobre R = [0, 1] × [0, 3]. A IA integra essa distribuição sobre R. O resultado é:
 (a) 9(e² − 1)/2  (b) 9(e² − 1)  (c) 9e²/2  (d) 3(e² − 1)/2  (e) 9(e − 1)/2
 
-**Q28 (soma).** Meta μ₀ = 50, σ = 20 (conhecido), n = 100, média amostral 55. Teste bilateral com Z crítico = ±1,96.
+**Q28 (soma).** Uma plataforma de IA analisa o risco de saída de clientes corporativos. A meta de retenção é μ₀ = 50, com desvio populacional σ = 20 (conhecido). O módulo analisou n = 100 clientes e reportou média amostral 55. Teste bilateral com Z crítico = ±1,96.
 - (01) O denominador da estatística Z vale 20.
 - (02) Z_teste = 2,5.
 - (04) H₀ é rejeitada.
 
-**Q29.** Seja A = [[2, 1], [0, 3]]. Usando A = PDP⁻¹, o elemento da linha 1, coluna 2 de A³ é:
+**Q29.** Um pipeline propaga dados por 3 etapas de tempo com a matriz A = [[2, 1], [0, 3]]. Usando A = PDP⁻¹, o elemento da linha 1, coluna 2 de A³ é:
 (a) 8  (b) 9  (c) 13  (d) 19  (e) 27
 
-**Q30 (soma).** Seja A = [[6, 2], [2, 3]] (covariância de dois atributos).
+**Q30 (soma).** Na fase de pré-processamento, a IA calcula a matriz de covariância de dois atributos correlacionados, custo e receita: A = [[6, 2], [2, 3]].
 - (01) Os autovalores de A são 7 e 2.
 - (02) v = (1, −2) é autovetor associado a λ = 2.
 - (04) Os autovalores de A² são 14 e 4.
